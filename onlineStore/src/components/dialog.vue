@@ -34,7 +34,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scope>
+<style scoped>
 	.fade-enter-active,.fade-leave-enter{
 		transition: all 1s;
 	}

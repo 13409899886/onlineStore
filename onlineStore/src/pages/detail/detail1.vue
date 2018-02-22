@@ -1,11 +1,17 @@
 <template>
-  <div class="layout">
-   	前端工程师
+  <div class="">
+   	<Select @onchange="pop"></Select>
+   	<radio @onchange="pop"></radio>
+   	<Checkbox  @onchange="pop"></Checkbox>
+   	<number @onchange="pop"></number>
   </div>
 </template>
 
 <script>
-	
+import Select from "../../components/select"	
+import Radio from "../../components/radio"	
+import Checkbox from "../../components/checkbox"
+import Number from "../../components/number"
 export default {
   data () {
     return {
@@ -13,12 +19,15 @@ export default {
     }
   },
   components:{
+  	Select,Radio,Checkbox,Number
   },
   mounted:function(){
   	
 	},
   methods:{
-  
+  	pop(val){
+  		console.log(val)
+  	}
   }
 }
 </script>

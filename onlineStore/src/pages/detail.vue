@@ -79,5 +79,5 @@ export default {
 	img{width: 50px;display: block;margin: 0 auto}
 	li{margin-bottom: 10px;}	
 	li.active,li:hover{background: #42B983; color:#fff;}
-	.side-right {margin-left: 310px;  min-height: 100px;background: #fff;}
+	.side-right {margin-left: 310px;  min-height: 150px;background: #fff;}
 </style>
