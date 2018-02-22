@@ -26,7 +26,7 @@
     			<div class="product-picture" :style="'backgroundImage:url('+item.picUrl+')'"></div>
     			<div class="product-intro">
     				<h3>{{item.title}}</h3>
-						<a href="#" class="btn">购买</a>
+						<router-link class="btn" :to="{path:'/detail'}">购买</router-link>
     			</div>
     		</div>
     	</div>

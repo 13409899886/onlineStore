@@ -2,7 +2,7 @@
   <div class="mask" v-if="show" @click.stop="onClose">
   	<transition name="fade">
 	  	<div class="content" v-if="show" >
-	  		<a href="javascript:;" @click.stop="onClose">&times;</a>
+	  		<a href="javascript:;" >&times;</a>
 	  		<div>
 	  			<slot></slot>
 	  		</div>

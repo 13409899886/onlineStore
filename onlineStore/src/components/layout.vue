@@ -19,7 +19,7 @@
 			footer
 		</div>
 		<my-dialog :show="isLogShow" @onClose="onClose('isLogShow')" >
-    	<login></login>
+    	<login @has-log="onClose('isLogShow')"></login>
     </my-dialog>
     <my-dialog :show="isRegShow" @onClose="onClose('isRegShow')" >
     	<p>reg</p>
@@ -96,7 +96,7 @@ time, mark, audio, video {
 }
 ul{list-style: none;}
 body {
-    line-height:1; color: #333; font-size: 12px;
+    line-height:1; color: #333; font-size: 12px;background: #f0f0f0;
 }
 
 :focus {
